@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		2E440F912B03E6B300BC6FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440F902B03E6B300BC6FF0 /* AppDelegate.swift */; };
 		2E440F932B03E6B300BC6FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440F922B03E6B300BC6FF0 /* SceneDelegate.swift */; };
-		2E440F952B03E6B300BC6FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440F942B03E6B300BC6FF0 /* ViewController.swift */; };
-		2E440F982B03E6B300BC6FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E440F962B03E6B300BC6FF0 /* Main.storyboard */; };
 		2E440F9B2B03E6B300BC6FF0 /* MasterMindGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E440F992B03E6B300BC6FF0 /* MasterMindGame.xcdatamodeld */; };
-		2E440F9D2B03E6B500BC6FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E440F9C2B03E6B500BC6FF0 /* Assets.xcassets */; };
-		2E440FA02B03E6B500BC6FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E440F9E2B03E6B500BC6FF0 /* LaunchScreen.storyboard */; };
 		2E440FAB2B03E6B500BC6FF0 /* MasterMindGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FAA2B03E6B500BC6FF0 /* MasterMindGameTests.swift */; };
 		2E440FB52B03E6B500BC6FF0 /* MasterMindGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FB42B03E6B500BC6FF0 /* MasterMindGameUITests.swift */; };
 		2E440FB72B03E6B500BC6FF0 /* MasterMindGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FB62B03E6B500BC6FF0 /* MasterMindGameUITestsLaunchTests.swift */; };
+		2E440FC42B03E6D700BC6FF0 /* MasterMindViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FC32B03E6D700BC6FF0 /* MasterMindViewCell.swift */; };
+		2E440FC82B03E71600BC6FF0 /* initialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FC72B03E71600BC6FF0 /* initialVC.swift */; };
+		2E440FCA2B03E74E00BC6FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E440FC92B03E74E00BC6FF0 /* Assets.xcassets */; };
+		2E440FCC2B03E76800BC6FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E440FCB2B03E76700BC6FF0 /* Main.storyboard */; };
+		2E440FCE2B03E76C00BC6FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E440FCD2B03E76C00BC6FF0 /* LaunchScreen.storyboard */; };
+		2E440FD02B03E8D100BC6FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E440FCF2B03E8D100BC6FF0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +42,19 @@
 		2E440F8D2B03E6B300BC6FF0 /* MasterMindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterMindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E440F902B03E6B300BC6FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E440F922B03E6B300BC6FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E440F942B03E6B300BC6FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E440F972B03E6B300BC6FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E440F9A2B03E6B300BC6FF0 /* MasterMindGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasterMindGame.xcdatamodel; sourceTree = "<group>"; };
-		2E440F9C2B03E6B500BC6FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E440F9F2B03E6B500BC6FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E440FA12B03E6B500BC6FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E440FA62B03E6B500BC6FF0 /* MasterMindGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterMindGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E440FAA2B03E6B500BC6FF0 /* MasterMindGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindGameTests.swift; sourceTree = "<group>"; };
 		2E440FB02B03E6B500BC6FF0 /* MasterMindGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterMindGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E440FB42B03E6B500BC6FF0 /* MasterMindGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindGameUITests.swift; sourceTree = "<group>"; };
 		2E440FB62B03E6B500BC6FF0 /* MasterMindGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E440FC32B03E6D700BC6FF0 /* MasterMindViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterMindViewCell.swift; sourceTree = "<group>"; };
+		2E440FC72B03E71600BC6FF0 /* initialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initialVC.swift; sourceTree = "<group>"; };
+		2E440FC92B03E74E00BC6FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E440FCB2B03E76700BC6FF0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E440FCD2B03E76C00BC6FF0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E440FCF2B03E8D100BC6FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +105,14 @@
 		2E440F8F2B03E6B300BC6FF0 /* MasterMindGame */ = {
 			isa = PBXGroup;
 			children = (
+				2E440FCF2B03E8D100BC6FF0 /* ViewController.swift */,
 				2E440F902B03E6B300BC6FF0 /* AppDelegate.swift */,
 				2E440F922B03E6B300BC6FF0 /* SceneDelegate.swift */,
-				2E440F942B03E6B300BC6FF0 /* ViewController.swift */,
-				2E440F962B03E6B300BC6FF0 /* Main.storyboard */,
-				2E440F9C2B03E6B500BC6FF0 /* Assets.xcassets */,
-				2E440F9E2B03E6B500BC6FF0 /* LaunchScreen.storyboard */,
+				2E440FC72B03E71600BC6FF0 /* initialVC.swift */,
+				2E440FCD2B03E76C00BC6FF0 /* LaunchScreen.storyboard */,
+				2E440FCB2B03E76700BC6FF0 /* Main.storyboard */,
+				2E440FC32B03E6D700BC6FF0 /* MasterMindViewCell.swift */,
+				2E440FC92B03E74E00BC6FF0 /* Assets.xcassets */,
 				2E440FA12B03E6B500BC6FF0 /* Info.plist */,
 				2E440F992B03E6B300BC6FF0 /* MasterMindGame.xcdatamodeld */,
 			);
@@ -234,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E440FA02B03E6B500BC6FF0 /* LaunchScreen.storyboard in Resources */,
-				2E440F9D2B03E6B500BC6FF0 /* Assets.xcassets in Resources */,
-				2E440F982B03E6B300BC6FF0 /* Main.storyboard in Resources */,
+				2E440FCE2B03E76C00BC6FF0 /* LaunchScreen.storyboard in Resources */,
+				2E440FCA2B03E74E00BC6FF0 /* Assets.xcassets in Resources */,
+				2E440FCC2B03E76800BC6FF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E440F952B03E6B300BC6FF0 /* ViewController.swift in Sources */,
+				2E440FD02B03E8D100BC6FF0 /* ViewController.swift in Sources */,
+				2E440FC82B03E71600BC6FF0 /* initialVC.swift in Sources */,
+				2E440FC42B03E6D700BC6FF0 /* MasterMindViewCell.swift in Sources */,
 				2E440F9B2B03E6B300BC6FF0 /* MasterMindGame.xcdatamodeld in Sources */,
 				2E440F912B03E6B300BC6FF0 /* AppDelegate.swift in Sources */,
 				2E440F932B03E6B300BC6FF0 /* SceneDelegate.swift in Sources */,
@@ -299,25 +307,6 @@
 			targetProxy = 2E440FB12B03E6B500BC6FF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2E440F962B03E6B300BC6FF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E440F972B03E6B300BC6FF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2E440F9E2B03E6B500BC6FF0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E440F9F2B03E6B500BC6FF0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2E440FB82B03E6B500BC6FF0 /* Debug */ = {
